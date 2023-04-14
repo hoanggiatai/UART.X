@@ -1,24 +1,24 @@
 Microchip Technology Inc, v1.70 (B)
 
 Tool Name:
-  d:\program files\microchip\ver1.7\bin\bin\..\bin/elf-ld.exe
+  c:\program files\microchip\xc16\v1.70\bin\bin\..\bin/elf-ld.exe
 
 Command:
   -p33EP512MU810 \
-  --mdfp=D:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/dsPIC33E-GM-GP-MC-GU-MU_DFP/1.3.85/xc16 \
+  --mdfp=C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/dsPIC33E-GM-GP-MC-GU-MU_DFP/1.3.85/xc16 \
   -o \
   dist/default/production/UART.X.production.elf \
-  -Ld:/program files/microchip/ver1.7/bin/bin/.. \
-  -LD:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/dsPIC33E-GM-GP-MC-GU-MU_DFP/1.3.85/xc16/bin/../support/PIC24E/gld \
-  -LD:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/dsPIC33E-GM-GP-MC-GU-MU_DFP/1.3.85/xc16/bin/../support/dsPIC33E/gld \
-  -Ld:/program files/microchip/ver1.7/bin/bin/../../lib \
-  -Ld:/program files/microchip/ver1.7/bin/bin/../../support/PIC24E/gld \
-  -Ld:/program files/microchip/ver1.7/bin/bin/../../support/PIC24F/gld \
-  -Ld:/program files/microchip/ver1.7/bin/bin/../../support/PIC24H/gld \
-  -Ld:/program files/microchip/ver1.7/bin/bin/../../support/dsPIC30F/gld \
-  -Ld:/program files/microchip/ver1.7/bin/bin/../../support/dsPIC33C/gld \
-  -Ld:/program files/microchip/ver1.7/bin/bin/../../support/dsPIC33E/gld \
-  -Ld:/program files/microchip/ver1.7/bin/bin/../../support/dsPIC33F/gld \
+  -Lc:/program files/microchip/xc16/v1.70/bin/bin/.. \
+  -LC:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/dsPIC33E-GM-GP-MC-GU-MU_DFP/1.3.85/xc16/bin/../support/PIC24E/gld \
+  -LC:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/dsPIC33E-GM-GP-MC-GU-MU_DFP/1.3.85/xc16/bin/../support/dsPIC33E/gld \
+  -Lc:/program files/microchip/xc16/v1.70/bin/bin/../../lib \
+  -Lc:/program files/microchip/xc16/v1.70/bin/bin/../../support/PIC24E/gld \
+  -Lc:/program files/microchip/xc16/v1.70/bin/bin/../../support/PIC24F/gld \
+  -Lc:/program files/microchip/xc16/v1.70/bin/bin/../../support/PIC24H/gld \
+  -Lc:/program files/microchip/xc16/v1.70/bin/bin/../../support/dsPIC30F/gld \
+  -Lc:/program files/microchip/xc16/v1.70/bin/bin/../../support/dsPIC33C/gld \
+  -Lc:/program files/microchip/xc16/v1.70/bin/bin/../../support/dsPIC33E/gld \
+  -Lc:/program files/microchip/xc16/v1.70/bin/bin/../../support/dsPIC33F/gld \
   build/default/production/mcc_generated_files/reset.o \
   build/default/production/mcc_generated_files/clock.o \
   build/default/production/mcc_generated_files/system.o \
@@ -56,66 +56,64 @@ Command:
 Optional library libp33EP512MU810.a not found
 Archive member included because of file (symbol)
 
-d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-pic30-elf.a(crt0_extendedep.o)
+c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-pic30-elf.a(crt0_extendedep.o)
                               (__resetPRI)
-d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-pic30-elf.a(data_init_extended.o)
-                              d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-pic30-elf.a(crt0_extendedep.o) (__data_init_extended)
-d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-pic30-elf.a(crt_start_mode_normalep.Leo)
+c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-pic30-elf.a(data_init_extended.o)
+                              c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-pic30-elf.a(crt0_extendedep.o) (__data_init_extended)
+c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-pic30-elf.a(crt_start_mode_normalep.Leo)
                               (__crt_start_mode_normal)
-d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(putchar.EP_eo)
-                              build/default/production/main.o (_putchar)
-d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(xfiles.EP_eo)
-                              d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(putchar.EP_eo) (__Stdout)
-d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(fputc.EP_elo)
-                              d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(putchar.EP_eo) (_fputc)
-d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(fflush.EP_eo)
-                              d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(fputc.EP_elo) (__DNKfflush)
-d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(xfwprep.EP_eo)
-                              d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(fputc.EP_elo) (__Fwprep)
-d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(fclose.EP_eo)
-                              d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(xfwprep.EP_eo) (__Closreg)
-d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(free.EP_eo)
-                              d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(fclose.EP_eo) (_free)
-d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(malloc.EP_eo)
-                              d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(free.EP_eo) (__Aldata)
-d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(xatexit.EP_eo)
-                              d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(fclose.EP_eo) (__Atexit)
-d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(xgetmem.EP_eo)
-                              d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(malloc.EP_eo) (__Getmem)
-d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(printf_s.EPeo)
+c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(printf_s.EPeo)
                               build/default/production/main.o (__printf_0)
-d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(xprintf_s.EPeo)
-                              d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(printf_s.EPeo) (___Printf_s)
-d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(xputfld_s.EPeo)
-                              d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(xprintf_s.EPeo) (___Putfld_s)
-d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(fwrite.EP_eo)
-                              d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(printf_s.EPeo) (_fwrite)
-d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(memchr.EP_eo)
-                              d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(xputfld_s.EPeo) (_memchr)
-d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(memcpy.EP_eo)
-                              d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(fwrite.EP_eo) (_memcpy)
-d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(strchr.EP_eo)
-                              d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(xprintf_s.EPeo) (_strchr)
-d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(strlen.EP_eo)
-                              d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(xputfld_s.EPeo) (_strlen)
-d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(xputtxt.EP_eo)
-                              d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(xprintf_s.EPeo) (__Puttxt)
-d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(xvacopy.EP_eo)
-                              d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(xprintf_s.EPeo) (__Vacopy)
-d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(efwrite.EP_eo)
-                              d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(xprintf_s.EPeo) (_efwrite)
-d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-pic30-elf.a(closeep.Leo)
-                              d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(fclose.EP_eo) (_close)
-d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-pic30-elf.a(removeep.Leo)
-                              d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(fclose.EP_eo) (_remove)
-d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-pic30-elf.a(sbrkep.Leo)
-                              d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(xgetmem.EP_eo) (_sbrk)
-d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-pic30-elf.a(memcpy_edsep.Leo)
-                              d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(efwrite.EP_eo) (__memcpy_eds_3)
-d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-pic30-elf.a(memchr_edsep.Leo)
-                              d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(xputfld_s.EPeo) (__memchr_eds)
-d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-pic30-elf.a(brkep.Lelo)
-                              d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-pic30-elf.a(sbrkep.Leo) (_brk)
+c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(fwrite.EP_eo)
+                              c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(printf_s.EPeo) (_fwrite)
+c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(memchr.EP_eo)
+                              c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(fwrite.EP_eo) (_memchr)
+c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(memcpy.EP_eo)
+                              c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(fwrite.EP_eo) (_memcpy)
+c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(xfiles.EP_eo)
+                              c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(printf_s.EPeo) (__Stdout)
+c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(xfwprep.EP_eo)
+                              c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(fwrite.EP_eo) (__Fwprep)
+c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(fclose.EP_elo)
+                              c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(xfwprep.EP_eo) (__Closreg)
+c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(fflush.EP_elo)
+                              c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(fwrite.EP_eo) (__DNKfflush)
+c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(xatexit.EP_elo)
+                              c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(fclose.EP_elo) (__Atexit)
+c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(xprintf_s.EPeo)
+                              c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(printf_s.EPeo) (___Printf_s)
+c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(xputfld_s.EPeo)
+                              c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(xprintf_s.EPeo) (___Putfld_s)
+c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(free.EP_eo)
+                              c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(fclose.EP_elo) (_free)
+c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(malloc.EP_eo)
+                              c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(free.EP_eo) (__Aldata)
+c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(strchr.EP_eo)
+                              c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(xprintf_s.EPeo) (_strchr)
+c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(strlen.EP_eo)
+                              c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(xputfld_s.EPeo) (_strlen)
+c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(xgetmem.EP_eo)
+                              c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(malloc.EP_eo) (__Getmem)
+c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(xputtxt.EP_eo)
+                              c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(xprintf_s.EPeo) (__Puttxt)
+c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(xvacopy.EP_eo)
+                              c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(xprintf_s.EPeo) (__Vacopy)
+c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(efwrite.EP_eo)
+                              c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(xprintf_s.EPeo) (_efwrite)
+c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-pic30-elf.a(closeep.Leo)
+                              c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(fclose.EP_elo) (_close)
+c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-pic30-elf.a(removeep.Leo)
+                              c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(fclose.EP_elo) (_remove)
+c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-pic30-elf.a(sbrkep.Leo)
+                              c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(xgetmem.EP_eo) (_sbrk)
+c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-pic30-elf.a(memcpy_edsep.Leo)
+                              c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(efwrite.EP_eo) (__memcpy_eds_3)
+c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-pic30-elf.a(memchr_edsep.Leo)
+                              c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(xputfld_s.EPeo) (__memchr_eds)
+c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-pic30-elf.a(brkep.Lelo)
+                              c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-pic30-elf.a(sbrkep.Leo) (_brk)
+c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\libm-elf.a(mulsi3.epeo)
+                              c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(fclose.EP_elo) (___mulsi3)
 
 
 Selected CodeGuard Options:
@@ -144,13 +142,13 @@ Default Scalar Model: Small
 
 section                    address   length (PC units)   length (bytes) (dec)
 -------                    -------   -----------------   --------------------
-.text                        0x200               0xd4e          0x13f5  (5109)
-.const                       0xf4e                 0xa             0xf  (15)
-.text                        0xf58               0x428           0x63c  (1596)
-.dinit                      0x1380                0xb0           0x108  (264)
-.text                       0x1430               0x1a6           0x279  (633)
+.text                        0x200               0xd22          0x13b3  (5043)
+.const                       0xf22                0x2c            0x42  (66)
+.text                        0xf4e               0x428           0x63c  (1596)
+.dinit                      0x1376                0xb0           0x108  (264)
+.text                       0x1426               0x1a0           0x270  (624)
 
-                 Total "program" memory used (bytes):         0x1dc1  (7617) 1%
+                 Total "program" memory used (bytes):         0x1da9  (7593) 1%
 
 
 Auxflash Memory  [Origin = 0x7fc000, Length = 0x3ffa]
@@ -232,137 +230,139 @@ External Symbols in Program Memory (by address):
                   0x0004b8                  __SoftTrapError
                   0x0004e4                  __DefaultInterrupt
                   0x00054e                  _write
-                  0x000588                  _putchar
-                  0x00058c                  _fputc
-                  0x0005da                  __DNKfflush
-                  0x000650                  __Fwprep
-                  0x0006e2                  __Closreg
-                  0x0006f4                  _fclose
-                  0x000778                  fclose.EP_eo:_closeall
-                  0x00078e                  _free
-                  0x000858                  _malloc
-                  0x0008ac                  __Atexit
-                  0x0008c6                  __Getmem
-                  0x0008da                  printf_s.EPeo:_prout
-                  0x0008f6                  __printf_0
-                  0x0008f6                  __printf_s
-                  0x000906                  xprintf_s.EPeo:_eprout
-                  0x000924                  ___ePrintf_s
-                  0x000a9a                  ___Printf_s
-                  0x000aa4                  ___Putfld_s
-                  0x000b40                  _fwrite
-                  0x000be8                  _memchr
-                  0x000bfc                  _memcpy
-                  0x000c0a                  _strchr
-                  0x000c22                  _strlen
-                  0x000c2e                  __Puttxt
-                  0x000de2                  __Vacopy
-                  0x000de6                  _efwrite
-                  0x000ec6                  __memcpy_eds_3
-                  0x000ec6                  __memcpy_eds
-                  0x000f18                  __memchr_eds
-                  0x000f58                  _UART1_Initialize
-                  0x000f8c                  _UART1_SetTxInterruptHandler
-                  0x000faa                  _UART1_SetRxInterruptHandler
-                  0x000fc8                  _UART1_Read
-                  0x000ff4                  _UART1_Write
-                  0x00101e                  _UART1_IsRxReady
-                  0x001034                  _UART1_IsTxReady
-                  0x001068                  _UART1_IsTxDone
-                  0x0010f8                  _UART1_ReadBuffer
-                  0x001132                  _UART1_WriteBuffer
-                  0x00116c                  _UART1_TransferStatusGet
-                  0x0011b4                  _UART1_Peek
-                  0x0011d4                  _UART1_ReceiveBufferIsEmpty
-                  0x0011e4                  _UART1_TransmitBufferIsFull
-                  0x0011f4                  _UART1_StatusGet
-                  0x0011fc                  _UART1_TransmitBufferSizeGet
-                  0x00122a                  _UART1_ReceiveBufferSizeGet
-                  0x001258                  _UART1_Enable
-                  0x001262                  _UART1_Disable
-                  0x00126c                  _RESET_GetCause
-                  0x001378                  _RESET_CauseClearAll
-                  0x001430                  _PIN_MANAGER_Initialize
-                  0x0014d6                  _main
-                  0x001526                  _CLOCK_Initialize
-                  0x001586                  _SYSTEM_Initialize
-                  0x00159a                  _INTERRUPT_Initialize
+                  0x000588                  printf_s.EPeo:_prout
+                  0x0005a4                  __printf_0
+                  0x0005a4                  __printf_s
+                  0x0005b4                  _fwrite
+                  0x00065c                  _memchr
+                  0x000670                  _memcpy
+                  0x00067e                  __Fwprep
+                  0x000710                  __Closreg
+                  0x000722                  _fclose
+                  0x0007b2                  fclose.EP_elo:_closeall
+                  0x0007d4                  __DNKfflush
+                  0x00084c                  __Atexit
+                  0x000866                  xprintf_s.EPeo:_eprout
+                  0x000884                  ___ePrintf_s
+                  0x0009fa                  ___Printf_s
+                  0x000a04                  ___Putfld_s
+                  0x000aa0                  _free
+                  0x000b6a                  _malloc
+                  0x000bbe                  _strchr
+                  0x000bd6                  _strlen
+                  0x000be2                  __Getmem
+                  0x000bf6                  __Puttxt
+                  0x000daa                  __Vacopy
+                  0x000dae                  _efwrite
+                  0x000e8e                  __memcpy_eds_3
+                  0x000e8e                  __memcpy_eds
+                  0x000ee0                  __memchr_eds
+                  0x000f16                  ___mulp32peds3
+                  0x000f16                  ___mulsi3
+                  0x000f16                  ___mulp32eds3
+                  0x000f4e                  _UART1_Initialize
+                  0x000f82                  _UART1_SetTxInterruptHandler
+                  0x000fa0                  _UART1_SetRxInterruptHandler
+                  0x000fbe                  _UART1_Read
+                  0x000fea                  _UART1_Write
+                  0x001014                  _UART1_IsRxReady
+                  0x00102a                  _UART1_IsTxReady
+                  0x00105e                  _UART1_IsTxDone
+                  0x0010ee                  _UART1_ReadBuffer
+                  0x001128                  _UART1_WriteBuffer
+                  0x001162                  _UART1_TransferStatusGet
+                  0x0011aa                  _UART1_Peek
+                  0x0011ca                  _UART1_ReceiveBufferIsEmpty
+                  0x0011da                  _UART1_TransmitBufferIsFull
+                  0x0011ea                  _UART1_StatusGet
+                  0x0011f2                  _UART1_TransmitBufferSizeGet
+                  0x001220                  _UART1_ReceiveBufferSizeGet
+                  0x00124e                  _UART1_Enable
+                  0x001258                  _UART1_Disable
+                  0x001262                  _RESET_GetCause
+                  0x00136e                  _RESET_CauseClearAll
+                  0x001426                  _PIN_MANAGER_Initialize
+                  0x0014cc                  _main
+                  0x001516                  _CLOCK_Initialize
+                  0x001576                  _SYSTEM_Initialize
+                  0x00158a                  _INTERRUPT_Initialize
                   0xf80004                  __FGS.sec
 
 External Symbols in Program Memory (by name):
 
-                  0x001526                  _CLOCK_Initialize
-                  0x00159a                  _INTERRUPT_Initialize
-                  0x001430                  _PIN_MANAGER_Initialize
-                  0x001378                  _RESET_CauseClearAll
-                  0x00126c                  _RESET_GetCause
-                  0x001586                  _SYSTEM_Initialize
-                  0x001262                  _UART1_Disable
-                  0x001258                  _UART1_Enable
-                  0x000f58                  _UART1_Initialize
-                  0x00101e                  _UART1_IsRxReady
-                  0x001068                  _UART1_IsTxDone
-                  0x001034                  _UART1_IsTxReady
-                  0x0011b4                  _UART1_Peek
-                  0x000fc8                  _UART1_Read
-                  0x0010f8                  _UART1_ReadBuffer
-                  0x0011d4                  _UART1_ReceiveBufferIsEmpty
-                  0x00122a                  _UART1_ReceiveBufferSizeGet
-                  0x000faa                  _UART1_SetRxInterruptHandler
-                  0x000f8c                  _UART1_SetTxInterruptHandler
-                  0x0011f4                  _UART1_StatusGet
-                  0x00116c                  _UART1_TransferStatusGet
-                  0x0011e4                  _UART1_TransmitBufferIsFull
-                  0x0011fc                  _UART1_TransmitBufferSizeGet
-                  0x000ff4                  _UART1_Write
-                  0x001132                  _UART1_WriteBuffer
+                  0x001516                  _CLOCK_Initialize
+                  0x00158a                  _INTERRUPT_Initialize
+                  0x001426                  _PIN_MANAGER_Initialize
+                  0x00136e                  _RESET_CauseClearAll
+                  0x001262                  _RESET_GetCause
+                  0x001576                  _SYSTEM_Initialize
+                  0x001258                  _UART1_Disable
+                  0x00124e                  _UART1_Enable
+                  0x000f4e                  _UART1_Initialize
+                  0x001014                  _UART1_IsRxReady
+                  0x00105e                  _UART1_IsTxDone
+                  0x00102a                  _UART1_IsTxReady
+                  0x0011aa                  _UART1_Peek
+                  0x000fbe                  _UART1_Read
+                  0x0010ee                  _UART1_ReadBuffer
+                  0x0011ca                  _UART1_ReceiveBufferIsEmpty
+                  0x001220                  _UART1_ReceiveBufferSizeGet
+                  0x000fa0                  _UART1_SetRxInterruptHandler
+                  0x000f82                  _UART1_SetTxInterruptHandler
+                  0x0011ea                  _UART1_StatusGet
+                  0x001162                  _UART1_TransferStatusGet
+                  0x0011da                  _UART1_TransmitBufferIsFull
+                  0x0011f2                  _UART1_TransmitBufferSizeGet
+                  0x000fea                  _UART1_Write
+                  0x001128                  _UART1_WriteBuffer
                   0x000438                  __AddressError
-                  0x0008ac                  __Atexit
-                  0x0006e2                  __Closreg
+                  0x00084c                  __Atexit
+                  0x000710                  __Closreg
                   0x000478                  __DMACError
-                  0x0005da                  __DNKfflush
+                  0x0007d4                  __DNKfflush
                   0x0004e4                  __DefaultInterrupt
                   0xf80004                  __FGS.sec
-                  0x000650                  __Fwprep
-                  0x0008c6                  __Getmem
+                  0x00067e                  __Fwprep
+                  0x000be2                  __Getmem
                   0x000498                  __HardTrapError
                   0x000458                  __MathError
                   0x0003f6                  __OscillatorFail
-                  0x000c2e                  __Puttxt
+                  0x000bf6                  __Puttxt
                   0x0004b8                  __SoftTrapError
                   0x000416                  __StackError
                   0x0003e0                  __U1ErrInterrupt
                   0x000374                  __U1RXInterrupt
                   0x000312                  __U1TXInterrupt
-                  0x000de2                  __Vacopy
-                  0x000a9a                  ___Printf_s
-                  0x000aa4                  ___Putfld_s
-                  0x000924                  ___ePrintf_s
+                  0x000daa                  __Vacopy
+                  0x0009fa                  ___Printf_s
+                  0x000a04                  ___Putfld_s
+                  0x000884                  ___ePrintf_s
+                  0x000f16                  ___mulp32eds3
+                  0x000f16                  ___mulp32peds3
+                  0x000f16                  ___mulsi3
                   0x000248                  __data_init
                   0x000248                  __data_init_extended
-                  0x000f18                  __memchr_eds
-                  0x000ec6                  __memcpy_eds
-                  0x000ec6                  __memcpy_eds_3
-                  0x0008f6                  __printf_0
-                  0x0008f6                  __printf_s
+                  0x000ee0                  __memchr_eds
+                  0x000e8e                  __memcpy_eds
+                  0x000e8e                  __memcpy_eds_3
+                  0x0005a4                  __printf_0
+                  0x0005a4                  __printf_s
                   0x00023c                  __psv_init
                   0x000200                  __resetPRI
-                  0x000de6                  _efwrite
-                  0x0006f4                  _fclose
-                  0x00058c                  _fputc
-                  0x00078e                  _free
-                  0x000b40                  _fwrite
-                  0x0014d6                  _main
-                  0x000858                  _malloc
-                  0x000be8                  _memchr
-                  0x000bfc                  _memcpy
-                  0x000588                  _putchar
-                  0x000c0a                  _strchr
-                  0x000c22                  _strlen
+                  0x000dae                  _efwrite
+                  0x000722                  _fclose
+                  0x000aa0                  _free
+                  0x0005b4                  _fwrite
+                  0x0014cc                  _main
+                  0x000b6a                  _malloc
+                  0x00065c                  _memchr
+                  0x000670                  _memcpy
+                  0x000bbe                  _strchr
+                  0x000bd6                  _strlen
                   0x00054e                  _write
-                  0x000778                  fclose.EP_eo:_closeall
-                  0x0008da                  printf_s.EPeo:_prout
-                  0x000906                  xprintf_s.EPeo:_eprout
+                  0x0007b2                  fclose.EP_elo:_closeall
+                  0x000588                  printf_s.EPeo:_prout
+                  0x000866                  xprintf_s.EPeo:_eprout
 
 Memory Configuration
 
@@ -395,7 +395,7 @@ LOAD build/default/production/mcc_generated_files/mcc.o
 LOAD build/default/production/main.o
                     0x0001                  __MPLAB_BUILD = 0x1
 LOAD p33EP512MU810
-LOAD d:/program files/microchip/ver1.7/bin/bin/../../lib\libfx-elf.a
+LOAD c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\libfx-elf.a
                     0xf80004                  __FGS = 0xf80004
                     0xf80006                  __FOSCSEL = 0xf80006
                     0xf80008                  __FOSC = 0xf80008
@@ -419,13 +419,13 @@ LOAD d:/program files/microchip/ver1.7/bin/bin/../../lib\libfx-elf.a
                   0x000002          0x2 SHORT 0x0 ((ABSOLUTE (__reset) >> 0x10) & 0x7f)
                   0x000003          0x2 SHORT 0x0
 
-.text             0x000200        0xd4e
+.text             0x000200        0xd22
  *(.init)
- .init            0x000200         0x48 d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-pic30-elf.a(crt0_extendedep.o)
+ .init            0x000200         0x48 c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-pic30-elf.a(crt0_extendedep.o)
                   0x000200                  __resetPRI
                   0x000200                  __reset
                   0x00023c                  __psv_init
- .init            0x000248         0xb2 d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-pic30-elf.a(data_init_extended.o)
+ .init            0x000248         0xb2 c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-pic30-elf.a(data_init_extended.o)
                   0x000248                  __data_init
                   0x000248                  __data_init_extended
  *(.user_init)
@@ -448,13 +448,13 @@ LOAD d:/program files/microchip/ver1.7/bin/bin/../../lib\libfx-elf.a
  .isr             0x0004e4          0x4 default_isr
                   0x0004e4                  __DefaultInterrupt
  *(.libc)
- .libc            0x0004e8         0x12 d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-pic30-elf.a(closeep.Leo)
+ .libc            0x0004e8         0x12 c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-pic30-elf.a(closeep.Leo)
                   0x0004e8                  _close
- .libc            0x0004fa         0x12 d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-pic30-elf.a(removeep.Leo)
+ .libc            0x0004fa         0x12 c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-pic30-elf.a(removeep.Leo)
                   0x0004fa                  _remove
- .libc            0x00050c         0x28 d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-pic30-elf.a(sbrkep.Leo)
+ .libc            0x00050c         0x28 c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-pic30-elf.a(sbrkep.Leo)
                   0x00050c                  _sbrk
- .libc            0x000534         0x1a d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-pic30-elf.a(brkep.Lelo)
+ .libc            0x000534         0x1a c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-pic30-elf.a(brkep.Lelo)
                   0x000534                  _brk
  *(.libm)
  *(.libdsp)
@@ -462,87 +462,87 @@ LOAD d:/program files/microchip/ver1.7/bin/bin/../../lib\libfx-elf.a
  .libc.write      0x00054e         0x38 build/default/production/mcc_generated_files/uart1.o
                   0x00054e                  _write
  .libpic30_crt_start_mode
-                  0x000586          0x2 d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-pic30-elf.a(crt_start_mode_normalep.Leo)
+                  0x000586          0x2 c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-pic30-elf.a(crt_start_mode_normalep.Leo)
                   0x000586                  __crt_start_mode
                   0x000586                  __crt_start_mode_normal
- .libc.putchar    0x000588          0x4 d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(putchar.EP_eo)
-                  0x000588                  _putchar
- .libc.fputc      0x00058c         0x4e d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(fputc.EP_elo)
-                  0x00058c                  _fputc
- .libc._DNKfflush
-                  0x0005da         0x76 d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(fflush.EP_eo)
-                  0x0005da                  __DNKfflush
- .libc._Fwprep    0x000650         0x8e d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(xfwprep.EP_eo)
-                  0x000650                  __Fwprep
- .libc.closeallreg
-                  0x0006de          0x4 d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(fclose.EP_eo)
- .libc._Closreg
-                  0x0006e2         0x12 d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(fclose.EP_eo)
-                  0x0006e2                  __Closreg
- .libc.fclose     0x0006f4         0x84 d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(fclose.EP_eo)
-                  0x0006f4                  _fclose
- .libc.closeall
-                  0x000778         0x16 d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(fclose.EP_eo)
-                  0x000778                  fclose.EP_eo:_closeall
- .libc.free       0x00078e         0x64 d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(free.EP_eo)
-                  0x00078e                  _free
- .libc.findmem    0x0007f2         0x66 d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(malloc.EP_eo)
- .libc.malloc     0x000858         0x54 d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(malloc.EP_eo)
-                  0x000858                  _malloc
- .libc._Atexit    0x0008ac         0x1a d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(xatexit.EP_eo)
-                  0x0008ac                  __Atexit
- .libc._Getmem    0x0008c6         0x14 d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(xgetmem.EP_eo)
-                  0x0008c6                  __Getmem
- .libc.prout      0x0008da         0x1c d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(printf_s.EPeo)
-                  0x0008da                  printf_s.EPeo:_prout
+ .libc.prout      0x000588         0x1c c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(printf_s.EPeo)
+                  0x000588                  printf_s.EPeo:_prout
  .libc._printf_s
-                  0x0008f6         0x10 d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(printf_s.EPeo)
-                  0x0008f6                  __printf_s
-                  0x0008f6                  __printf_0
- .libc.eprout     0x000906         0x1e d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(xprintf_s.EPeo)
-                  0x000906                  xprintf_s.EPeo:_eprout
+                  0x0005a4         0x10 c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(printf_s.EPeo)
+                  0x0005a4                  __printf_s
+                  0x0005a4                  __printf_0
+ .libc.fwrite     0x0005b4         0xa8 c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(fwrite.EP_eo)
+                  0x0005b4                  _fwrite
+ .libc.memchr     0x00065c         0x14 c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(memchr.EP_eo)
+                  0x00065c                  _memchr
+ .libc.memcpy     0x000670          0xe c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(memcpy.EP_eo)
+                  0x000670                  _memcpy
+ .libc._Fwprep    0x00067e         0x8e c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(xfwprep.EP_eo)
+                  0x00067e                  __Fwprep
+ .libc.closeallreg
+                  0x00070c          0x4 c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(fclose.EP_elo)
+ .libc._Closreg
+                  0x000710         0x12 c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(fclose.EP_elo)
+                  0x000710                  __Closreg
+ .libc.fclose     0x000722         0x90 c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(fclose.EP_elo)
+                  0x000722                  _fclose
+ .libc.closeall
+                  0x0007b2         0x22 c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(fclose.EP_elo)
+                  0x0007b2                  fclose.EP_elo:_closeall
+ .libc._DNKfflush
+                  0x0007d4         0x78 c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(fflush.EP_elo)
+                  0x0007d4                  __DNKfflush
+ .libc._Atexit    0x00084c         0x1a c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(xatexit.EP_elo)
+                  0x00084c                  __Atexit
+ .libc.eprout     0x000866         0x1e c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(xprintf_s.EPeo)
+                  0x000866                  xprintf_s.EPeo:_eprout
  .libc.__ePrintf_s
-                  0x000924        0x176 d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(xprintf_s.EPeo)
-                  0x000924                  ___ePrintf_s
+                  0x000884        0x176 c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(xprintf_s.EPeo)
+                  0x000884                  ___ePrintf_s
  .libc.__Printf_s
-                  0x000a9a          0xa d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(xprintf_s.EPeo)
-                  0x000a9a                  ___Printf_s
+                  0x0009fa          0xa c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(xprintf_s.EPeo)
+                  0x0009fa                  ___Printf_s
  .libc.__Putfld_s
-                  0x000aa4         0x9c d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(xputfld_s.EPeo)
-                  0x000aa4                  ___Putfld_s
- .libc.fwrite     0x000b40         0xa8 d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(fwrite.EP_eo)
-                  0x000b40                  _fwrite
- .libc.memchr     0x000be8         0x14 d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(memchr.EP_eo)
-                  0x000be8                  _memchr
- .libc.memcpy     0x000bfc          0xe d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(memcpy.EP_eo)
-                  0x000bfc                  _memcpy
- .libc.strchr     0x000c0a         0x18 d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(strchr.EP_eo)
-                  0x000c0a                  _strchr
- .libc.strlen     0x000c22          0xc d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(strlen.EP_eo)
-                  0x000c22                  _strlen
- .libc._Puttxt    0x000c2e        0x1b4 d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(xputtxt.EP_eo)
-                  0x000c2e                  __Puttxt
- .libc._Vacopy    0x000de2          0x4 d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(xvacopy.EP_eo)
-                  0x000de2                  __Vacopy
- .libc.efwrite    0x000de6         0xd8 d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(efwrite.EP_eo)
-                  0x000de6                  _efwrite
- .libc.doclose    0x000ebe          0x4 d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-pic30-elf.a(closeep.Leo)
+                  0x000a04         0x9c c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(xputfld_s.EPeo)
+                  0x000a04                  ___Putfld_s
+ .libc.free       0x000aa0         0x64 c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(free.EP_eo)
+                  0x000aa0                  _free
+ .libc.findmem    0x000b04         0x66 c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(malloc.EP_eo)
+ .libc.malloc     0x000b6a         0x54 c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(malloc.EP_eo)
+                  0x000b6a                  _malloc
+ .libc.strchr     0x000bbe         0x18 c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(strchr.EP_eo)
+                  0x000bbe                  _strchr
+ .libc.strlen     0x000bd6          0xc c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(strlen.EP_eo)
+                  0x000bd6                  _strlen
+ .libc._Getmem    0x000be2         0x14 c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(xgetmem.EP_eo)
+                  0x000be2                  __Getmem
+ .libc._Puttxt    0x000bf6        0x1b4 c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(xputtxt.EP_eo)
+                  0x000bf6                  __Puttxt
+ .libc._Vacopy    0x000daa          0x4 c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(xvacopy.EP_eo)
+                  0x000daa                  __Vacopy
+ .libc.efwrite    0x000dae         0xd8 c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(efwrite.EP_eo)
+                  0x000dae                  _efwrite
+ .libc.doclose    0x000e86          0x4 c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-pic30-elf.a(closeep.Leo)
  .libc.doremove
-                  0x000ec2          0x4 d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-pic30-elf.a(removeep.Leo)
+                  0x000e8a          0x4 c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-pic30-elf.a(removeep.Leo)
  .libc.memcpy_eds
-                  0x000ec6         0x52 d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-pic30-elf.a(memcpy_edsep.Leo)
-                  0x000ec6                  __memcpy_eds_3
-                  0x000ec6                  __memcpy_eds
+                  0x000e8e         0x52 c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-pic30-elf.a(memcpy_edsep.Leo)
+                  0x000e8e                  __memcpy_eds_3
+                  0x000e8e                  __memcpy_eds
  .libc._memchr_eds
-                  0x000f18         0x36 d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-pic30-elf.a(memchr_edsep.Leo)
-                  0x000f18                  __memchr_eds
+                  0x000ee0         0x36 c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-pic30-elf.a(memchr_edsep.Leo)
+                  0x000ee0                  __memchr_eds
+ .libm.mulsi3     0x000f16          0xc c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\libm-elf.a(mulsi3.epeo)
+                  0x000f16                  ___mulp32peds3
+                  0x000f16                  ___mulsi3
+                  0x000f16                  ___mulp32eds3
 
 usercode
  *(usercode)
 
 __FGS             0xf80004          0x2
  *(__FGS.sec*)
- __FGS.sec        0xf80004          0x2 /CW/_FGSk&
+ __FGS.sec        0xf80004          0x2 /CW/_FGS0Á)
                   0xf80004                  __FGS.sec
 
 __FOSCSEL
@@ -568,18 +568,18 @@ __FUID0
 
 .comment          0x000000         0x5e
  *(.comment)
- .comment         0x000000         0x5e d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(xfiles.EP_eo)
+ .comment         0x000000         0x5e c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(xfiles.EP_eo)
 
-.debug_info       0x000000       0x3502
+.debug_info       0x000000       0x356a
  *(.debug_info)
- .debug_info      0x000000        0x471 build/default/production/mcc_generated_files/reset.o
- .debug_info      0x000471        0x2e5 build/default/production/mcc_generated_files/clock.o
- .debug_info      0x000756        0x4cb build/default/production/mcc_generated_files/system.o
- .debug_info      0x000c21       0x1161 build/default/production/mcc_generated_files/uart1.o
- .debug_info      0x001d82        0x9b6 build/default/production/mcc_generated_files/pin_manager.o
- .debug_info      0x002738        0x5c8 build/default/production/mcc_generated_files/traps.o
- .debug_info      0x002d00        0x65c build/default/production/mcc_generated_files/interrupt_manager.o
- .debug_info      0x00335c        0x1a6 build/default/production/main.o
+ .debug_info      0x000000        0x47e build/default/production/mcc_generated_files/reset.o
+ .debug_info      0x00047e        0x2f2 build/default/production/mcc_generated_files/clock.o
+ .debug_info      0x000770        0x4d8 build/default/production/mcc_generated_files/system.o
+ .debug_info      0x000c48       0x116e build/default/production/mcc_generated_files/uart1.o
+ .debug_info      0x001db6        0x9c3 build/default/production/mcc_generated_files/pin_manager.o
+ .debug_info      0x002779        0x5d5 build/default/production/mcc_generated_files/traps.o
+ .debug_info      0x002d4e        0x669 build/default/production/mcc_generated_files/interrupt_manager.o
+ .debug_info      0x0033b7        0x1b3 build/default/production/main.o
  *(.gnu.linkonce.wi.*)
 
 .debug_abbrev     0x000000        0x7b2
@@ -594,19 +594,19 @@ __FUID0
  .debug_abbrev    0x00071d          0x1 build/default/production/mcc_generated_files/mcc.o
  .debug_abbrev    0x00071e         0x94 build/default/production/main.o
 
-.debug_line       0x000000        0xb52
+.debug_line       0x000000        0xb73
  *(.debug_line)
- .debug_line      0x000000        0x16d build/default/production/mcc_generated_files/reset.o
- .debug_line      0x00016d        0x130 build/default/production/mcc_generated_files/clock.o
- .debug_line      0x00029d        0x16c build/default/production/mcc_generated_files/system.o
- .debug_line      0x000409        0x22c build/default/production/mcc_generated_files/uart1.o
- .debug_line      0x000635        0x153 build/default/production/mcc_generated_files/pin_manager.o
- .debug_line      0x000788        0x164 build/default/production/mcc_generated_files/traps.o
- .debug_line      0x0008ec        0x130 build/default/production/mcc_generated_files/interrupt_manager.o
- .debug_line      0x000a1c         0x1a build/default/production/mcc_generated_files/mcc.o
- .debug_line      0x000a36        0x11c build/default/production/main.o
+ .debug_line      0x000000        0x171 build/default/production/mcc_generated_files/reset.o
+ .debug_line      0x000171        0x134 build/default/production/mcc_generated_files/clock.o
+ .debug_line      0x0002a5        0x170 build/default/production/mcc_generated_files/system.o
+ .debug_line      0x000415        0x230 build/default/production/mcc_generated_files/uart1.o
+ .debug_line      0x000645        0x157 build/default/production/mcc_generated_files/pin_manager.o
+ .debug_line      0x00079c        0x168 build/default/production/mcc_generated_files/traps.o
+ .debug_line      0x000904        0x134 build/default/production/mcc_generated_files/interrupt_manager.o
+ .debug_line      0x000a38         0x1a build/default/production/mcc_generated_files/mcc.o
+ .debug_line      0x000a52        0x121 build/default/production/main.o
 
-.debug_frame      0x000000        0x77a
+.debug_frame      0x000000        0x788
  *(.debug_frame)
  .debug_frame     0x000000        0x118 build/default/production/mcc_generated_files/reset.o
  .debug_frame     0x000118         0x2e build/default/production/mcc_generated_files/clock.o
@@ -615,7 +615,7 @@ __FUID0
  .debug_frame     0x0004cc         0x2e build/default/production/mcc_generated_files/pin_manager.o
  .debug_frame     0x0004fa        0x1fa build/default/production/mcc_generated_files/traps.o
  .debug_frame     0x0006f4         0x2e build/default/production/mcc_generated_files/interrupt_manager.o
- .debug_frame     0x000722         0x58 build/default/production/main.o
+ .debug_frame     0x000722         0x66 build/default/production/main.o
 
 .debug_str        0x000000        0x13e
  *(.debug_str)
@@ -3365,12 +3365,12 @@ __FUID0
                     0x0230                  UART2 = 0x230
                     0x0230                  _UART2 = 0x230
 START GROUP
-LOAD d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-pic30-elf.a
-LOAD d:/program files/microchip/ver1.7/bin/bin/../../lib\libm-elf.a
-LOAD d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a
+LOAD c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-pic30-elf.a
+LOAD c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\libm-elf.a
+LOAD c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a
 END GROUP
 OUTPUT(dist/default/production/UART.X.production.elf elf32-pic30)
-LOAD /CW/_FGSk&
+LOAD /CW/_FGS0Á)
 LOAD jump_table
 LOAD default_isr
 LOAD data_init
@@ -3395,7 +3395,7 @@ LOAD data_init
                   0x000428         0x1f build/default/production/main.o
 
 __c30_signature
-                  0x000447         0xe4
+                  0x000447         0xde
  __c30_signature
                   0x000447          0x6 build/default/production/mcc_generated_files/reset.o
  __c30_signature
@@ -3415,63 +3415,61 @@ __c30_signature
  __c30_signature
                   0x000477          0x6 build/default/production/main.o
  __c30_signature
-                  0x00047d          0x6 d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-pic30-elf.a(crt0_extendedep.o)
+                  0x00047d          0x6 c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-pic30-elf.a(crt0_extendedep.o)
  __c30_signature
-                  0x000483          0x6 d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-pic30-elf.a(data_init_extended.o)
+                  0x000483          0x6 c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-pic30-elf.a(data_init_extended.o)
  __c30_signature
-                  0x000489          0x6 d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(putchar.EP_eo)
+                  0x000489          0x6 c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(printf_s.EPeo)
  __c30_signature
-                  0x00048f          0x6 d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(xfiles.EP_eo)
+                  0x00048f          0x6 c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(fwrite.EP_eo)
  __c30_signature
-                  0x000495          0x6 d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(fputc.EP_elo)
+                  0x000495          0x6 c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(memchr.EP_eo)
  __c30_signature
-                  0x00049b          0x6 d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(fflush.EP_eo)
+                  0x00049b          0x6 c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(memcpy.EP_eo)
  __c30_signature
-                  0x0004a1          0x6 d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(xfwprep.EP_eo)
+                  0x0004a1          0x6 c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(xfiles.EP_eo)
  __c30_signature
-                  0x0004a7          0x6 d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(fclose.EP_eo)
+                  0x0004a7          0x6 c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(xfwprep.EP_eo)
  __c30_signature
-                  0x0004ad          0x6 d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(free.EP_eo)
+                  0x0004ad          0x6 c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(fclose.EP_elo)
  __c30_signature
-                  0x0004b3          0x6 d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(malloc.EP_eo)
+                  0x0004b3          0x6 c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(fflush.EP_elo)
  __c30_signature
-                  0x0004b9          0x6 d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(xatexit.EP_eo)
+                  0x0004b9          0x6 c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(xatexit.EP_elo)
  __c30_signature
-                  0x0004bf          0x6 d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(xgetmem.EP_eo)
+                  0x0004bf          0x6 c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(xprintf_s.EPeo)
  __c30_signature
-                  0x0004c5          0x6 d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(printf_s.EPeo)
+                  0x0004c5          0x6 c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(xputfld_s.EPeo)
  __c30_signature
-                  0x0004cb          0x6 d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(xprintf_s.EPeo)
+                  0x0004cb          0x6 c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(free.EP_eo)
  __c30_signature
-                  0x0004d1          0x6 d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(xputfld_s.EPeo)
+                  0x0004d1          0x6 c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(malloc.EP_eo)
  __c30_signature
-                  0x0004d7          0x6 d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(fwrite.EP_eo)
+                  0x0004d7          0x6 c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(strchr.EP_eo)
  __c30_signature
-                  0x0004dd          0x6 d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(memchr.EP_eo)
+                  0x0004dd          0x6 c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(strlen.EP_eo)
  __c30_signature
-                  0x0004e3          0x6 d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(memcpy.EP_eo)
+                  0x0004e3          0x6 c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(xgetmem.EP_eo)
  __c30_signature
-                  0x0004e9          0x6 d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(strchr.EP_eo)
+                  0x0004e9          0x6 c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(xputtxt.EP_eo)
  __c30_signature
-                  0x0004ef          0x6 d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(strlen.EP_eo)
+                  0x0004ef          0x6 c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(xvacopy.EP_eo)
  __c30_signature
-                  0x0004f5          0x6 d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(xputtxt.EP_eo)
+                  0x0004f5          0x6 c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(efwrite.EP_eo)
  __c30_signature
-                  0x0004fb          0x6 d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(xvacopy.EP_eo)
+                  0x0004fb          0x6 c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-pic30-elf.a(closeep.Leo)
  __c30_signature
-                  0x000501          0x6 d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(efwrite.EP_eo)
+                  0x000501          0x6 c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-pic30-elf.a(removeep.Leo)
  __c30_signature
-                  0x000507          0x6 d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-pic30-elf.a(closeep.Leo)
+                  0x000507          0x6 c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-pic30-elf.a(sbrkep.Leo)
  __c30_signature
-                  0x00050d          0x6 d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-pic30-elf.a(removeep.Leo)
+                  0x00050d          0x6 c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-pic30-elf.a(memcpy_edsep.Leo)
  __c30_signature
-                  0x000513          0x6 d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-pic30-elf.a(sbrkep.Leo)
+                  0x000513          0x6 c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-pic30-elf.a(memchr_edsep.Leo)
  __c30_signature
-                  0x000519          0x6 d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-pic30-elf.a(memcpy_edsep.Leo)
+                  0x000519          0x6 c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-pic30-elf.a(brkep.Lelo)
  __c30_signature
-                  0x00051f          0x6 d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-pic30-elf.a(memchr_edsep.Leo)
- __c30_signature
-                  0x000525          0x6 d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-pic30-elf.a(brkep.Lelo)
+                  0x00051f          0x6 c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\libm-elf.a(mulsi3.epeo)
 
 .nbss               0x1000          0xe
  .nbss              0x1000          0xe build/default/production/mcc_generated_files/uart1.o
@@ -3485,7 +3483,7 @@ __c30_signature
  .bss               0x1010         0xca build/default/production/mcc_generated_files/uart1.o
 
 .data               0x10da         0x88
- .data              0x10da         0x88 d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(xfiles.EP_eo)
+ .data              0x10da         0x88 c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(xfiles.EP_eo)
                     0x10da                  __Stdin
                     0x1102                  __Stdout
                     0x112a                  __Stderr
@@ -3495,19 +3493,19 @@ __c30_signature
  .bss               0x1162         0x20 build/default/production/mcc_generated_files/traps.o
 
 .data               0x1182         0x1a
- .data              0x1182         0x1a d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(xprintf_s.EPeo)
+ .data              0x1182         0x1a c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(xprintf_s.EPeo)
 
 .bss                0x119c          0x6
- .bss               0x119c          0x4 d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(malloc.EP_eo)
+ .bss               0x119c          0x4 c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(malloc.EP_eo)
                     0x119c                  __Aldata
- .bss               0x11a0          0x2 d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(fclose.EP_eo)
+ .bss               0x11a0          0x2 c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(fclose.EP_elo)
 
 .data               0x11a2          0x2
- .data              0x11a2          0x2 d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-c-elf.a(malloc.EP_eo)
+ .data              0x11a2          0x2 c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-c-elf.a(malloc.EP_eo)
                     0x11a2                  __Size_block
 
 .bss                0x11a4          0x2
- .bss               0x11a4          0x2 d:/program files/microchip/ver1.7/bin/bin/../../lib\liblega-pic30-elf.a(brkep.Lelo)
+ .bss               0x11a4          0x2 c:/program files/microchip/xc16/v1.70/bin/bin/../../lib\liblega-pic30-elf.a(brkep.Lelo)
                     0x11a4                  ___curbrk
 
 .config_APLK      0xf80010          0x2
@@ -3582,50 +3580,50 @@ __c30_signature
  .ivt._SoftTrapError
                   0x000010          0x2 build/default/production/mcc_generated_files/traps.o
 
-.const              0x8f4e          0xa load address 0x000f4e  
- .const             0x8f4e          0xa build/default/production/main.o
+.const              0x8f22         0x2c load address 0x000f22  
+ .const             0x8f22         0x2c build/default/production/main.o
 
-.text             0x000f58        0x428
- .text            0x000f58        0x314 build/default/production/mcc_generated_files/uart1.o
-                  0x000f58                  _UART1_Initialize
-                  0x000f8c                  _UART1_SetTxInterruptHandler
-                  0x000fa4                  _UART1_Transmit_CallBack
-                  0x000faa                  _UART1_SetRxInterruptHandler
-                  0x000fc2                  _UART1_Receive_CallBack
-                  0x000fc8                  _UART1_Read
-                  0x000ff4                  _UART1_Write
-                  0x00101e                  _UART1_IsRxReady
-                  0x001034                  _UART1_IsTxReady
-                  0x001068                  _UART1_IsTxDone
-                  0x0010f8                  _UART1_ReadBuffer
-                  0x001132                  _UART1_WriteBuffer
-                  0x00116c                  _UART1_TransferStatusGet
-                  0x0011b4                  _UART1_Peek
-                  0x0011d4                  _UART1_ReceiveBufferIsEmpty
-                  0x0011e4                  _UART1_TransmitBufferIsFull
-                  0x0011f4                  _UART1_StatusGet
-                  0x0011fc                  _UART1_TransmitBufferSizeGet
-                  0x00122a                  _UART1_ReceiveBufferSizeGet
-                  0x001258                  _UART1_Enable
-                  0x001262                  _UART1_Disable
- .text            0x00126c        0x114 build/default/production/mcc_generated_files/reset.o
-                  0x00126c                  _RESET_GetCause
-                  0x001274                  _RESET_CauseHandler
-                  0x001378                  _RESET_CauseClearAll
+.text             0x000f4e        0x428
+ .text            0x000f4e        0x314 build/default/production/mcc_generated_files/uart1.o
+                  0x000f4e                  _UART1_Initialize
+                  0x000f82                  _UART1_SetTxInterruptHandler
+                  0x000f9a                  _UART1_Transmit_CallBack
+                  0x000fa0                  _UART1_SetRxInterruptHandler
+                  0x000fb8                  _UART1_Receive_CallBack
+                  0x000fbe                  _UART1_Read
+                  0x000fea                  _UART1_Write
+                  0x001014                  _UART1_IsRxReady
+                  0x00102a                  _UART1_IsTxReady
+                  0x00105e                  _UART1_IsTxDone
+                  0x0010ee                  _UART1_ReadBuffer
+                  0x001128                  _UART1_WriteBuffer
+                  0x001162                  _UART1_TransferStatusGet
+                  0x0011aa                  _UART1_Peek
+                  0x0011ca                  _UART1_ReceiveBufferIsEmpty
+                  0x0011da                  _UART1_TransmitBufferIsFull
+                  0x0011ea                  _UART1_StatusGet
+                  0x0011f2                  _UART1_TransmitBufferSizeGet
+                  0x001220                  _UART1_ReceiveBufferSizeGet
+                  0x00124e                  _UART1_Enable
+                  0x001258                  _UART1_Disable
+ .text            0x001262        0x114 build/default/production/mcc_generated_files/reset.o
+                  0x001262                  _RESET_GetCause
+                  0x00126a                  _RESET_CauseHandler
+                  0x00136e                  _RESET_CauseClearAll
 
-.dinit            0x001380         0xb0
- .dinit           0x001380         0xb0 data_init
+.dinit            0x001376         0xb0
+ .dinit           0x001376         0xb0 data_init
 
-.text             0x001430        0x1a6
- .text            0x001430         0xa6 build/default/production/mcc_generated_files/pin_manager.o
-                  0x001430                  _PIN_MANAGER_Initialize
- .text            0x0014d6         0x50 build/default/production/main.o
-                  0x0014d6                  _main
- .text            0x001526         0x42 build/default/production/mcc_generated_files/clock.o
-                  0x001526                  _CLOCK_Initialize
- .text            0x001568         0x32 build/default/production/mcc_generated_files/system.o
-                  0x001586                  _SYSTEM_Initialize
- .text            0x00159a         0x24 build/default/production/mcc_generated_files/interrupt_manager.o
-                  0x00159a                  _INTERRUPT_Initialize
- .text            0x0015be         0x18 build/default/production/mcc_generated_files/traps.o
-                  0x0015be                  _TRAPS_halt_on_error
+.text             0x001426        0x1a0
+ .text            0x001426         0xa6 build/default/production/mcc_generated_files/pin_manager.o
+                  0x001426                  _PIN_MANAGER_Initialize
+ .text            0x0014cc         0x4a build/default/production/main.o
+                  0x0014cc                  _main
+ .text            0x001516         0x42 build/default/production/mcc_generated_files/clock.o
+                  0x001516                  _CLOCK_Initialize
+ .text            0x001558         0x32 build/default/production/mcc_generated_files/system.o
+                  0x001576                  _SYSTEM_Initialize
+ .text            0x00158a         0x24 build/default/production/mcc_generated_files/interrupt_manager.o
+                  0x00158a                  _INTERRUPT_Initialize
+ .text            0x0015ae         0x18 build/default/production/mcc_generated_files/traps.o
+                  0x0015ae                  _TRAPS_halt_on_error

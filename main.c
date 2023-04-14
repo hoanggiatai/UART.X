@@ -18,7 +18,7 @@
     The generated drivers are tested against the following:
         Compiler          :  XC16 v1.70
         MPLAB 	          :  MPLAB X v5.50
-*/
+ */
 
 /*
     (c) 2020 Microchip Technology Inc. and its subsidiaries. You may use this
@@ -40,42 +40,41 @@
 
     MICROCHIP PROVIDES THIS SOFTWARE CONDITIONALLY UPON YOUR ACCEPTANCE OF THESE
     TERMS.
-*/
+ */
 
 /**
   Section: Included Files
-*/
+ */
 #include "mcc_generated_files/system.h"
 #include "mcc_generated_files/uart1.h"
 #include<stdio.h>
+
 /*
                          Main application
  */
-int main(void)
-{
+int main(void) {
     int j;
     char Buff[10];
     // initialize the device
     SYSTEM_Initialize();
-    while (1)
-    {
-        int i=0;
-        while(UART1_ReceiveBufferIsEmpty()==0)
-        {printf("22600");}
-        while(UART1_ReceiveBufferIsEmpty()!=0){
-            printf("aaA");
-            Buff[i]=UART1_Read();
+    while (1) {
+        int i = 0;
+        while (UART1_ReceiveBufferIsEmpty() == true) {
+            printf("Empty \n\r");
+        }
+        while (UART1_ReceiveBufferIsEmpty() != 0) {
+            printf("Not Empty n\r");
+            Buff[i] = UART1_Read();
             //UART1_Write(Buff[i]);
-            printf("%c",Buff[i]);
-            
+            printf("Ky tu nhan duoc: ");
+            UART1_Write(Buff[i]);
+            printf("\n\r");
             i++;
         }
-        while(UART1_ReceiveBufferIsEmpty()==0)
-        {printf("22600");}
     }
-    return 1; 
+    return 1;
 }
 /**
  End of File
-*/
+ */
 
