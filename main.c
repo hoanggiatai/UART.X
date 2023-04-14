@@ -54,16 +54,15 @@
 int main(void)
 {
     int j;
-    char Buff[10]={0};
+    char Buff[10];
     // initialize the device
     SYSTEM_Initialize();
     while (1)
     {
         int i=0;
-        printf('h');
-        while(UART1_ReceiveBufferIsEmpty()==NULL)
+        while(UART1_ReceiveBufferIsEmpty()==0)
         {printf("22600");}
-        while(UART1_ReceiveBufferIsEmpty()!=NULL){
+        while(UART1_ReceiveBufferIsEmpty()!=0){
             printf("aaA");
             Buff[i]=UART1_Read();
             //UART1_Write(Buff[i]);
@@ -71,7 +70,7 @@ int main(void)
             
             i++;
         }
-        while(UART1_ReceiveBufferIsEmpty()==NULL)
+        while(UART1_ReceiveBufferIsEmpty()==0)
         {printf("22600");}
     }
     return 1; 
